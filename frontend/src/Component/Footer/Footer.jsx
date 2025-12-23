@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa6'
-import logo from '../../assets/F_foodlogo.png'
+import logo from '../../assets/f_foodlogo.png'
 import { Link } from 'react-router-dom'
 
 
