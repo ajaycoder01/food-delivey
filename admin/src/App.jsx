@@ -11,7 +11,7 @@ import { ToastContainer } from "react-toastify";
 
 export default function App() {
   const [showLogin, setShowLogin] = useState(false);
-  const url = "http://localhost:4000";
+  const url = "https://food-delivery-backend-ea4q.onrender.com";
 
   return (
     <>
