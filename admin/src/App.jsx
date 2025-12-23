@@ -19,7 +19,7 @@ export default function App() {
 
       <Navbar setShowLogin={setShowLogin} />
 
-      {showLogin && <LoginPopup setShowLogin={setShowLogin} />}
+      {showLogin && <LoginPopup setShowLogin={setShowLogin} url={url} />}
 
       <div className="app-content">
         <Sidebar />
