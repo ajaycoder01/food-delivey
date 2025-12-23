@@ -5,7 +5,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { AdminAuthContext } from "../../context/AdminAuthContext";
 
-export default function LoginPopup({ setShowLogin }) {
+export default function LoginPopup({ setShowLogin, url }) {
   const navigate = useNavigate();
   const { setToken, setRole } = useContext(AdminAuthContext);
 
@@ -15,7 +15,7 @@ export default function LoginPopup({ setShowLogin }) {
     e.preventDefault();
 
     const res = await axios.post(
-      "http://localhost:4000/api/user/login",
+      `${url}/api/user/login`,
       data
     );
 
