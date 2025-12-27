@@ -126,17 +126,22 @@ npm run dev
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshot/home.png)
+<p align="center">
+  <img src="screenshot/home.png" width="80%" />
+</p>
 
-### 🛒 Cart Page
-![Cart Page](screenshot/cart.png)
-
-### 💳 Payment Page
-![Payment Details Page](screenshot/payment-details.png)
-![Payment Page](screenshot/payment.png)
+### 🛒 Cart & Payment
+<p align="center">
+  <img src="screenshot/cart.png" width="30%" />
+  <img src="screenshot/payment-details.png" width="30%" />
+  <img src="screenshot/payment.png" width="30%" />
+</p>
 
 ### 🧑‍💼 Admin Panel
-![Admin Panel](screenshot/admin.png)
+<p align="center">
+  <img src="screenshot/admin.png" width="80%" />
+</p>
+
 
 
 ⭐ Show Your Support
